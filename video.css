@@ -10,6 +10,9 @@
     .video-grid{
     grid-template-columns: 1fr 1fr ;
     }
+    .side{
+        display: none;
+    }
     
 } 
 @media (max-width: 800px){
