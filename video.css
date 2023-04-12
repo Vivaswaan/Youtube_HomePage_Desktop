@@ -10,6 +10,13 @@
     .video-grid{
     grid-template-columns: 1fr 1fr ;
     }
+    
+} 
+@media (max-width: 800px){
+    .video-grid{
+    grid-template-columns: 1fr;
+       margin-top: 25%;
+    }
     .side{
         width: 3%;
     }
@@ -23,12 +30,6 @@
 }
     .side p{
         font-size:15%;
-    }
-} 
-@media (max-width: 800px){
-    .video-grid{
-    grid-template-columns: 1fr;
-       margin-top: 25%;
     }
 }          
 .preview{
