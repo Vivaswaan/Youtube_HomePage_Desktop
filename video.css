@@ -20,8 +20,10 @@
     .side{
         width: 3%;
     }
-    .side-icon p{
-    font-size: 30%;
+    .side-icon div{
+    font-size: 10%;
+        right-margin:1%;
+        left-margin:1%;
 }
     .side-icon img{
    width: 100%;
