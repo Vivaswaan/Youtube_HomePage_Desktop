@@ -1,0 +1,85 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2.918% ;
+    column-gap: 1.4% ;
+    margin-right: 1.69575%;
+    margin-left: 1.69575%;
+}  
+@media (max-width: 950px){
+    .video-grid{
+    grid-template-columns: 1fr 1fr ;
+    }
+} 
+@media (max-width: 800px){
+    .video-grid{
+    grid-template-columns: 1fr;
+    }
+}          
+.preview{
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin-right: 1.245%;
+  margin-top: 1%;
+}
+
+.thumb{
+    width: 100% ;
+    display: block;
+    margin-bottom: 1.5% ;
+}
+
+.channelpic{
+    display: inline-block;
+    width: 100%;
+}
+.vidinfo{
+    
+    width: 100%;
+    margin-top: 0px ;
+}
+.profile-pic{
+   width: 75% ;
+   height: 65%;
+   border-radius: 50% ;
+}
+.right-side{
+   
+    vertical-align: top;
+}
+.video-title{
+    margin-bottom: 1.25% ;
+    font-weight: 500;
+    font-size: 100%;
+}
+.maker{
+    margin-bottom: 0px ;
+    margin-top: 0.9956% ;
+}
+.maker, .views{
+    font-size: 75% ;
+    color: rgb(96,96,96);
+}
+.views{
+    margin-top: 0.9956% ;
+}
+.vid-grid{
+    display: grid;
+    grid-template-columns: 15% 1fr ;
+}
+.thumbnail-row{
+    position: relative;
+}
+.time{
+    position: absolute;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 75% ;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    bottom: 3%;
+    right: 1%;
+}
