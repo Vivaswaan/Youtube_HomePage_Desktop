@@ -18,22 +18,9 @@
        margin-top: 25%;
     }
     .side{
-        width: 3%;
+        display: none;
     }
-    .side-icon div{
-    font-size: 10%;
-        right-margin:1%;
-        left-margin:1%;
-}
-    .side-icon img{
-   width: 100%;
-        height: 100%;
-        
-}
-    .side p{
-        font-size:10%;
-        margin-right: 0.1%;
-    }
+    
 }          
 .preview{
   display: inline-block;
