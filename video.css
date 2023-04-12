@@ -12,6 +12,7 @@
     }
     .side{
         display: none;
+        width: 0%;
     }
     
 } 
@@ -22,6 +23,7 @@
     }
     .side{
         display: none;
+        width: 0%;
     }
     
 }          
