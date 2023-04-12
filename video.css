@@ -16,6 +16,9 @@
     .side-icon p{
     font-size: 30%;
 }
+    .side-icon img{
+   width: 50%;
+}
 } 
 @media (max-width: 800px){
     .video-grid{
